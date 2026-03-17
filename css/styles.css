@@ -70,7 +70,7 @@ p {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 16px;
+    padding: 0 15px;
   }
 }
 
@@ -116,7 +116,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
   }
@@ -188,7 +188,7 @@ p {
 .header-contacts-list {
   display: block;
   align-items: center;
-  gap: 39px;
+  gap: 40px;
 }
 
 .header-contacts-link {
@@ -216,7 +216,7 @@ p {
   .header-contacts-list {
     display: flex;
     flex-direction: row;
-    gap: 39px;
+    gap: 40px;
   }
 }
 
@@ -275,7 +275,7 @@ p {
 
 @media only screen and (min-width: 1158px) {
   .hero-solutions {
-    max-width: 1158px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image:
@@ -353,13 +353,6 @@ p {
   display: flex;
   padding-top: 96px;
   padding-bottom: 96px;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-title {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -443,7 +436,7 @@ p {
 }
 
 .hero-title-list-description {
-  lfont-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -453,7 +446,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .hero-title-list-description {
-    lfont-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -624,7 +617,7 @@ p {
 
 @media screen and (min-width: 1158px) {
   .portfolio-list {
-    gap: 40px 24px;
+    gap: 48px 24px;
   }
 }
 
@@ -800,9 +793,11 @@ p {
   }
 }
 
-.footer-form {
+.footer-form{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -860,12 +855,6 @@ p {
 
 .footer-media-icon-svg {
   fill: #f4f4fd;
-}
-
-.footer-form {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 
 .footer-input {
@@ -959,7 +948,7 @@ p {
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 24px 24px;
 }
 
 .modal-close {
