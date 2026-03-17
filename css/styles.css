@@ -18,6 +18,7 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 button {
@@ -191,9 +192,25 @@ p {
   gap: 40px;
 }
 
-.header-contacts-link {
+@media only screen and (max-width: 768px) {
+  .header-contacts-link {
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
   color: #434455;
+  }
 }
+
+@media only screen and (max-width: 1158px) {
+  .header-contacts-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+  }
+}
+
 
 @media only screen and (max-width: 767.98px) {
   .header-contacts-list {
@@ -232,11 +249,9 @@ p {
 
 .hero-solutions {
   background-color: #2e2f42;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 320px;
   margin: 0 auto;
   display: block;
   padding-top: 72px;
@@ -508,8 +523,7 @@ p {
 
 @media screen and (min-width: 1158px) {
   .hero-team-list {
-    gap: 23px;
-    width: 1128px;
+    gap: 24px;
   }
 }
 
@@ -716,7 +730,7 @@ p {
 }
 
 .footer-container {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 72px;
@@ -727,6 +741,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .footer-container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
@@ -765,7 +780,6 @@ p {
   color: #f4f4fd;
   width: 264px;
   padding-top: 16px;
-  padding-bottom: 32px;
   justify-content: center;
 }
 
@@ -775,7 +789,6 @@ p {
     color: #f4f4fd;
     width: 264px;
     padding-top: 16px;
-    padding-bottom: 32px;
     text-align: left;
   }
 }
@@ -793,11 +806,11 @@ p {
   }
 }
 
-.footer-form{
+.footer-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -814,6 +827,7 @@ p {
   color: #fff;
   padding-bottom: 16px;
   text-align: center;
+  padding-top: 72px;
 }
 
 @media screen and (min-width: 768px) {
@@ -940,7 +954,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  max-width: 408px;
   min-height: 584px;
   border-radius: 4px;
   box-shadow:
