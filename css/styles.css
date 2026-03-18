@@ -252,7 +252,7 @@ p {
 
 /* Hero */
 
-@media only screen and (min-width: 288px) and (max-width: 767.98px){
+
 .hero-solutions {
   background-color: #2e2f42;
   background-repeat: no-repeat;
@@ -260,7 +260,7 @@ p {
   background-position: center;
   margin: 0 auto;
   display: block;
-  /* max-width: 767,98px; */
+  max-width: 767,98px;
   padding-top: 72px;
   padding-bottom: 72px;
   background-image:
@@ -275,7 +275,7 @@ p {
       url("../images/people-office_mob@2x.jpg");
   }
 }
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px){
   .hero-solutions {
@@ -297,9 +297,9 @@ p {
 }
 }
 
-@media only screen and (min-width: 1158px) and (max-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .hero-solutions {
-    /* max-width: 1440px; */
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image:
@@ -840,17 +840,22 @@ p {
   }
 }
 
-
 .footer-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-form {
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-form {
+    gap: 16px;
   }
 }
 
@@ -946,7 +951,7 @@ margin-left: 80px;
 }
 
 .footer-form-btn {
-  min-width: 169px;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   background-color: #4d5ae5;
