@@ -100,7 +100,13 @@ p {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-navigation {
+  display: flex;
+  align-items: center;
+  }
 }
 
 .header-logo {
@@ -191,7 +197,7 @@ p {
 }
 
 .header-contacts {
-  font-style: normal;
+  /* font-style: normal; */
 margin-left: auto;
 }
 
@@ -200,7 +206,6 @@ margin-left: auto;
     display: none;
   }
 }
-
 
 .header-contacts-list {
   display: block;
@@ -1236,6 +1241,7 @@ max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
 }
 
 @media only screen and (min-width: 768px) {
